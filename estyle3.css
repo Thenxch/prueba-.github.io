@@ -1,0 +1,171 @@
+    body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    .contenedor {
+      /*border: 2px solid #ebab4b;*/
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto auto;
+      gap: 20px;
+      justify-items: center;
+      padding: 20px;
+      overflow: visible;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .item {
+      align-items: center;
+      border: 2px solid rgb(64, 138, 222);
+      border-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgb(36, 36, 36);
+      display: flex;
+   
+      justify-content: center;
+      font-weight: bold;
+      flex-direction: column;
+      transition: transform 300ms, background-color 2s, box-shadow 300ms;
+      width: 100% ;
+      max-width: 200px;
+    } 
+    b{
+        color:#4bebc8
+    }
+    .item:hover{
+      transform: scale(1.1);
+      z-index: 2;
+      background-color:rgba(32, 39, 167, 0.719) ;
+      box-shadow: 0 8px 16px 0 rgb(36, 36, 36);
+      cursor: pointer;
+    }
+    img{
+      aspect-ratio: 1/1;
+      border-radius: 5px 5px ;
+      object-fit: cover;
+       width: 100%;
+    }
+    body {
+  margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  border-radius: 5px; /* bordes redondeados*/
+  background-color: #0b4f6c;
+  padding: 13px;
+}
+h1 {
+  color: #cbb9a8;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+nav{
+  background-color: #cbb9a8;
+  height: 38px;
+  padding: 10px;
+  text-align: center;
+ 
+}
+nav a{
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding:30px;
+  text-decoration: none;
+}
+a:hover{
+transition: so;
+}
+section {
+  margin-bottom: 40px;
+ 
+}
+
+aside {
+  
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #0b4f6c;
+  color: #cbb9a8;
+  text-align: center;
+  padding: 10px;
+
+
+}
+.padre {
+
+  display: flex;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.padre {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.Auxiliar {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  width: 70%;
+  border-radius: 5px;
+  background-color: #cbb9a8;
+}
+
+.hijo-1 {
+  width: 100%;
+  text-align: center;
+}
+.hijo-2{
+  border-radius: 5px;
+  background-color: cadetblue;
+  padding: 5px;
+}
+
+.hijo-3 {
+  width: 20%;
+  border-radius: 5px;
+  background-color: aquamarine;
+  padding: 5px;
+}
+form{
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+label{
+  font-weight: bold;
+}
+input{
+  border-radius: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+select{
+  border-radius: 5px;
+
+}
+button{
+  
+}
+.main-content{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Contactanos{
+  padding: 10px;
+  background-color: #147fac;
+  border-radius: 5px;
+}
